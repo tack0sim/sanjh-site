@@ -12,6 +12,6 @@ const props = defineProps<{
   >
     <NuxtImg :src="props?.src" />
     <h3>{{ props?.title }}</h3>
-    <p>{{ props?.body }}</p>
+    <p class="px-2">{{ props?.body }}</p>
   </article>
 </template>
