@@ -8,10 +8,14 @@ const props = defineProps<{
 
 <template>
   <article
-    class="flex flex-col justify-center items-center mb-4 bg-[#888888]/15 rounded-xl"
+    class="flex flex-col justify-center items-center mb-4 bg-[#888888]/15 rounded-xl m-0"
   >
-    <NuxtImg :src="props?.src" class="md:w-[250px]" />
-    <h3>{{ props?.title }}</h3>
+    <NuxtImg
+      :src="props?.src"
+      format="webp"
+      class="md:w-[250px] rounded-full"
+    />
+    <h3 class="mt-0 mb-0">{{ props?.title }}</h3>
     <p class="px-2">{{ props?.body }}</p>
   </article>
 </template>

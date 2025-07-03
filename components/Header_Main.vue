@@ -9,7 +9,7 @@
       <h3 class="font-semibold">Sanjh Publications</h3>
     </div>
     <div>
-      <p>20 years of your trust</p>
+      <p>20th anniversary</p>
     </div>
   </header>
 </template>
