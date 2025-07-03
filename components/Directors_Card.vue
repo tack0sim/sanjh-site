@@ -1,12 +1,16 @@
 <script setup lang="ts">
 const props = defineProps<{
+  src?: string;
   title?: string;
   body?: string;
 }>();
 </script>
 
 <template>
-  <article class="mb-4 border-1">
+  <article
+    class="flex flex-col justify-center items-center mb-4 bg-[#888888]/15 rounded-xl"
+  >
+    <NuxtImg :src="props?.src" />
     <h3>{{ props?.title }}</h3>
     <p>{{ props?.body }}</p>
   </article>

@@ -39,17 +39,29 @@
     </section>
 
     <!-- Directors Note Section -->
-    <section class="prose max-w-[1440px] mx-auto mb-8 border-1">
+    <section class="prose max-w-[1440px] mx-auto mb-8">
       <h2 class="max-w-[1440px] text-center">Directors Note</h2>
-      <div class="flex justify-evenly items-center gap-x-6">
+      <div
+        class="flex max-sm:flex-col max-sm:justify-center justify-evenly items-center gap-x-6 mx-8"
+      >
         <Directors_Card
           title="Farkhanda Amjad"
-          body="Placeholder body"
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Sed mattis turpis at erat bibendum viverra. 
+          Etiam accumsan, dui eget imperdiet maximus, felis felis varius ex, et cursus sem orci sed dui. 
+          Nunc sed leo eget augue egestas pharetra. Aliquam tincidunt sagittis diam. 
+          Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+          Aliquam sit amet accumsan orci, a consequat tortor. Ut non ante turpis."
           class="md:basis-1/2"
         />
         <Directors_Card
           title="Amjad Saleem Minhas"
-          body="Placeholder body"
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Sed mattis turpis at erat bibendum viverra. 
+          Etiam accumsan, dui eget imperdiet maximus, felis felis varius ex, et cursus sem orci sed dui. 
+          Nunc sed leo eget augue egestas pharetra. Aliquam tincidunt sagittis diam. 
+          Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+          Aliquam sit amet accumsan orci, a consequat tortor. Ut non ante turpis."
           class="md:basis-1/2"
         />
       </div>
