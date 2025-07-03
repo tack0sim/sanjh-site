@@ -54,7 +54,7 @@
         class="flex max-sm:flex-col max-sm:justify-center justify-evenly items-center gap-x-6 mx-8"
       >
         <DirectorsCard
-          src="farkhanda.jpeg"
+          src="farkhanda-1.jpeg"
           title="Farkhanda Amjad"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Sed mattis turpis at erat bibendum viverra. 
