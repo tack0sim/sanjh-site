@@ -13,6 +13,7 @@
       </div>
       <NuxtLink
         to="https://www.facebook.com/SanjhPublications"
+        target="_blank"
         class="flex justify-start items-center gap-x-1 text-white font-extralight"
       >
         <Icon name="mdi:facebook" />
