@@ -13,7 +13,7 @@ const props = defineProps<{
     <NuxtImg
       :src="props?.src"
       format="webp"
-      class="max-sm:w-[250px] md:w-[250px] rounded-full"
+      class="max-sm:w-[250px] sm:w-[200px] md:w-[250px] rounded-full"
     />
     <h3 class="mt-0 mb-0">{{ props?.title }}</h3>
     <p class="px-2">{{ props?.body }}</p>
