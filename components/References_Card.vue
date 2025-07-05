@@ -6,14 +6,12 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <article class="bg-[#888888]/15 mx-auto rounded-xl">
-    <h3 class="text-center mb-0">{{ props?.title }}</h3>
-    <p class="italic text-center mt-0 mb-0">{{ props?.author }}</p>
-
-    <p class="px-2">
+  <article class="bg-[#888888]/15 mx-auto h-min rounded-xl">
+    <p class="px-2 mb-0 mt-0 pt-2">
       <Icon name="mdi:format-quote-open" />
       {{ props?.body }}
-      <Icon name="mdi:format-quote-close" />
+      <Icon name="mdi:format-quote-close" class="m-0" />
     </p>
+    <p class="italic text-center mt-0 mb-0">{{ props?.author }}</p>
   </article>
 </template>

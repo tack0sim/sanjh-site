@@ -16,7 +16,6 @@
         class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] mx-6 gap-4 gap-y-6"
       >
         <ReferencesCard
-          title="Placeholder title"
           author="Full Name (City)"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Sed mattis turpis at erat bibendum viverra. 
@@ -27,19 +26,16 @@
         />
 
         <ReferencesCard
-          title="Placeholder title"
           author="Full Name (City)"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis turpis at erat bibendum viverra. Etiam accumsan, dui eget imperdiet maximus, felis felis varius ex, et cursus sem orci sed dui. Nunc sed leo eget augue egestas pharetra. Aliquam tincidunt sagittis diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam sit amet accumsan orci, a consequat tortor. Ut non ante turpis."
         />
 
         <ReferencesCard
-          title="Placeholder title"
-          author="Full Name (City)"
-          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis turpis at erat bibendum viverra. Etiam accumsan, dui eget imperdiet maximus, felis felis varius ex, et cursus sem orci sed dui. Nunc sed leo eget augue egestas pharetra. Aliquam tincidunt sagittis diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam sit amet accumsan orci, a consequat tortor. Ut non ante turpis."
+          author="Talha Minhas (Bielefeld)"
+          body="Sanjh is an absolute gem - an oasis for book lovers of Pakistan, thirsty for knowledge. I am very grateful for Sanjh that has enlightened and enriched the lives of so many. I wish to see Sanjh growing into an even bigger platform for generations to come."
         />
 
         <ReferencesCard
-          title="Placeholder title"
           author="Full Name (City)"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis turpis at erat bibendum viverra. Etiam accumsan, dui eget imperdiet maximus, felis felis varius ex, et cursus sem orci sed dui. Nunc sed leo eget augue egestas pharetra. Aliquam tincidunt sagittis diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam sit amet accumsan orci, a consequat tortor. Ut non ante turpis."
         />
