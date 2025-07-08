@@ -2,16 +2,50 @@
 const props = defineProps<{
   title?: string;
   author?: string;
+  blurb?: string;
+  blurbUrdu?: string;
   body?: string;
+  bodyUrdu?: string;
 }>();
+
+const formattedBody = computed(() => props?.body?.replace(/\n/g, "<br />"));
+const formattedBodyUrdu = computed(() =>
+  props?.bodyUrdu?.replace(/\n/g, "<br />")
+);
+
+const isModalOpen = ref(false);
+
+function openModal() {
+  isModalOpen.value = true;
+}
+function closeModal() {
+  isModalOpen.value = false;
+}
 </script>
 <template>
   <article class="bg-[#888888]/15 mx-auto h-min rounded-xl">
     <p class="px-2 mb-0 mt-0 pt-2">
-      <Icon name="mdi:format-quote-open" />
-      {{ props?.body }}
-      <Icon name="mdi:format-quote-close" class="m-0" />
+      <Icon v-if="props?.blurb" name="mdi:format-quote-open" />
+      {{ props?.blurb }}
+      <Icon v-if="props?.blurb" name="mdi:format-quote-close" class="m-0" />
     </p>
+    <p dir="rtl" lang="ur" class="px-2 mb-0 mt-0 pt-2">
+      <Icon v-if="props?.blurbUrdu" name="mdi:format-quote-close" />
+      {{ props?.blurbUrdu }}
+      <Icon v-if="props?.blurbUrdu" name="mdi:format-quote-open" class="m-0" />
+    </p>
+    <UButton v-if="props?.body || props?.bodyUrdu" @click="openModal">
+      Read more...
+    </UButton>
     <p class="italic text-center mt-0 mb-0">{{ props?.author }}</p>
+    <!-- Modal -->
+    <ModalReferences :is-open="isModalOpen" @close-modal="closeModal">
+      <template #content>
+        <div>
+          <p v-html="formattedBody" />
+          <p dir="rtl" lang="ur" v-html="formattedBodyUrdu" />
+        </div>
+      </template>
+    </ModalReferences>
   </article>
 </template>
