@@ -63,11 +63,6 @@
           author="Talha Minhas (Bielefeld)"
           blurb="Sanjh is an absolute gem - an oasis for book lovers of Pakistan, thirsty for knowledge. I am very grateful for Sanjh that has enlightened and enriched the lives of so many. I wish to see Sanjh growing into an even bigger platform for generations to come."
         />
-
-        <ReferencesCard
-          author="Full Name (City)"
-          blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis turpis at erat bibendum viverra. Etiam accumsan, dui eget imperdiet maximus, felis felis varius ex, et cursus sem orci sed dui. Nunc sed leo eget augue egestas pharetra. Aliquam tincidunt sagittis diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam sit amet accumsan orci, a consequat tortor. Ut non ante turpis."
-        />
       </div>
     </section>
 
@@ -82,7 +77,7 @@
           src="farkhanda-1.jpeg"
           title="Farkhanda Amjad"
           body-urdu="ساڈے ادارے سانجھ پبلیکیشنز نوں قائم ہوۓ ایس ورھے 20 سال پورے ہو جاسن ۔جولایٔی  2005 توں جون 2025 دا اے سفر اسی ماں بولی دے ودھا لیٔ شروع کیتا سی ۔جیہدے وچ ہر علاقے اور خطے دی زبان اچ کتاباں چھاپیاں مثلاً انگریزی،اردو،پنجابی،سندھی،سرایٔیکی،بلوچی،پشتو وغیرہ ایہناں وچ تاریخ ،ناول،افسانے،کہانیاں،سفرنامے،شاعری،تنقید،ممیگزین،ہڈورتی،پنجابی قاعدہ تے ڈرامے شامل نیں ۔سانجھ دے پلیٹ فارم تے صرف پبلیکیشن دا ہی کم نہیں ہوندا بلکہ ایتھے وڈے ،چھوٹے،نوجوان،کڑیاں،منڈے مختلف موضوعات تے اپنی گل بات وی سانجھی کردے نیں ۔اسیں اپنے ادارے،پنجاب لوک سنگت دی چھتر چھاویں  سانجھ ساہت میلے وی سجاۓ ۔کتاب میلے تے مختلف یونیورسٹیاں اور اداریاں وچ کتاباں دی مکھ وکھالی پروگرام وی کیتے، سانجھ ادارے دیاں چھپیاں کتاباں تے مناسب رعایت دتی جاندی اے ۔اپنے  ادارے دے 20 سال پورے ہون دی خوشی وچ جولائی 2025 دا پورا مہینہ  ٪ 70 تک رعایت دتی جاوے گی ۔ہر پڑھیار نوں اس آفر توں فائدہ حاصل کرنا چاہی دا اے۔"
-          class="md:basis-1/2"
+          class="sm:w-[50vw]"
         />
 
         <DirectorsCard
@@ -94,7 +89,7 @@
         Nunc sed leo eget augue egestas pharetra. Aliquam tincidunt sagittis diam. 
         Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
         Aliquam sit amet accumsan orci, a consequat tortor. Ut non ante turpis."
-          class="md:basis-1/2"
+          class="sm:w-[50vw]"
         />
       </div>
     </section>

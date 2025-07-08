@@ -1,9 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <footer
-    class="bottom-0 bg-[#000000] w-screen max-w-[1440px] mx-auto h-[150px]"
-  >
+  <footer class="bottom-0 bg-[#000000] max-w-[1440px] mx-auto h-[150px]">
     <div
       class="max-w-[1440px] flex justify-between items-center max-sm:flex-col max-sm:justify-start mx-4 md:mx-8 py-4 md:py-8 text-white font-extralight"
     >
