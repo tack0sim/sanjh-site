@@ -55,7 +55,12 @@ function closeModal() {
       <template #content>
         <div>
           <p v-html="formattedBody" />
-          <p dir="rtl" lang="ur" v-html="formattedBodyUrdu" />
+          <p
+            dir="rtl"
+            lang="ur"
+            class="md:text-xl"
+            v-html="formattedBodyUrdu"
+          />
         </div>
       </template>
     </ModalReferences>
