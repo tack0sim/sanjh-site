@@ -17,9 +17,11 @@ const isModalOpen = ref(false);
 
 function openModal() {
   isModalOpen.value = true;
+  document.body.classList.add("overflow-hidden");
 }
 function closeModal() {
   isModalOpen.value = false;
+  document.body.classList.remove("overflow-hidden");
 }
 </script>
 <template>
