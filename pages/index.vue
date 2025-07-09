@@ -3,8 +3,8 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="prose max-w-[1440px] mx-auto">
-      <h2 class="max-w-[1440px] text-center">Our Bestsellers</h2>
+    <section class="prose max-w-[1440px] mx-auto mb-4">
+      <h2 class="text-center">Our Bestsellers</h2>
       <HeroMain />
     </section>
 

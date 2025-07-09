@@ -8,16 +8,18 @@ const props = defineProps<{
 
 <template>
   <article
-    class="flex max-sm:flex-col flex-row-reverse justify-start items-center gap-x-4 px-12 bg-[#888888]/50 rounded-xl"
+    class="flex flex-col justify-start items-center h-max gap-y-1 pb-2 px-8 bg-[#888888]/50 rounded-xl"
   >
     <NuxtImg
       :src="props?.src"
       format="webp"
-      class="max-sm:w-[100vw] max-sm:h-[250px] max-sm:object-cover max-md:w-[250px] w-[400px] h-auto rounded-xl"
+      class="max-sm:w-[100vw] max-sm:h-[250px] max-sm:object-contain max-md:w-[250px] md:w-[25vw] md:h-[33vh] md:object-contain rounded-xl"
     />
-    <div class="prose max-w-[1440px]">
-      <h3 lang="ur" dir="rtl">{{ props?.title }}</h3>
-      <p lang="ur" dir="rtl">{{ props?.body }}</p>
+    <div class="prose">
+      <h3 lang="ur" dir="rtl" class="text-lg">{{ props?.title }}</h3>
+      <p v-if="props?.body" lang="ur" dir="rtl" class="text-sm">
+        {{ props?.body }}
+      </p>
     </div>
   </article>
 </template>

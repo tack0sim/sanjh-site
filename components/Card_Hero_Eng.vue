@@ -1,23 +1,23 @@
 <script setup lang="ts">
 const props = defineProps<{
   src?: string;
-  title?: string;
+  title: string;
   body?: string;
 }>();
 </script>
 
 <template>
   <article
-    class="flex justify-start items-center max-sm:flex-col gap-x-4 px-12 bg-[#888888]/15 rounded-xl"
+    class="flex flex-col justify-start items-center h-max gap-y-1 pb-2 px-8 bg-[#888888]/15 rounded-xl"
   >
     <NuxtImg
       :src="props?.src"
       format="webp"
-      class="max-sm:w-[100vw] max-sm:h-[250px] max-sm:object-cover max-md:w-[250px] w-[400px] h-auto rounded-xl"
+      class="max-sm:w-[100vw] max-sm:h-[250px] max-sm:object-contain max-md:w-[50vw] md:w-[25vw] md:h-[33vh] md:object-contain rounded-xl"
     />
-    <div class="prose max-w-[1440px] max-md:basis-2/3">
-      <h3>{{ props?.title }}</h3>
-      <p class="text-justify">{{ props?.body }}</p>
+    <div class="prose">
+      <h3 class="text-xl">{{ props?.title }}</h3>
+      <p v-if="props?.body" class="text-justify text-sm">{{ props?.body }}</p>
     </div>
   </article>
 </template>
