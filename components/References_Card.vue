@@ -32,7 +32,11 @@ function closeModal() {
         {{ props?.blurb }}
         <Icon v-if="props?.blurb" name="mdi:format-quote-close" class="m-0" />
       </p>
-      <p dir="rtl" lang="ur" class="px-2 mb-0 mt-0 pt-0 pb-2">
+      <p
+        dir="rtl"
+        lang="ur"
+        class="px-2 mb-0 mt-0 pt-0 pb-2 @max-xs:text-xl md:text-2xl"
+      >
         <Icon v-if="props?.blurbUrdu" name="mdi:format-quote-close" />
         {{ props?.blurbUrdu }}
         <Icon
