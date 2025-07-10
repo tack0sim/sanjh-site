@@ -8,6 +8,34 @@
       <HeroMain />
     </section>
 
+    <!-- Directors Note Section -->
+    <section class="prose max-w-[1440px] mx-auto mb-8">
+      <h2 class="max-w-[1440px] text-center">Directors Note</h2>
+
+      <div
+        class="flex max-sm:flex-col max-sm:justify-center justify-evenly items-start gap-x-6 mx-8"
+      >
+        <DirectorsCard
+          src="amjad.jpeg"
+          title="Amjad Saleem Minhas"
+          body-urdu="سانجھ پبلیکیشنز  2005 وچ بنیا۔اوس ویلے ملک وچ مذہبی انتہا پسندی اپنے عروج تے سی۔سارے ملک وچ کوئی حصہ تشدد دی لہر توں بچیا ہویا نہیں سی۔ایس لئی ساڈے خیال موجب سانوں ملک وچ موجود ون سونتا نوں سلاہن لئی اپنی اپنی ماں بولی ول دھیان دینا ہووے گا۔پنجابی زبان دی ترقی تے اوہدے قدرتی بہاو وچ سب توں وڈی رکاوٹ خود ریاست دا نظریاتی کٹڑ پن سی جینہے پنجاب وچ ساڈے ایس مڈھلے بولی حق نوں منن توں انکار کیتا ہویا سی۔سانجھ پبلیکیشنز نے ایس حوالے نال دو پدھری کم کیتا۔اک اپنی ماں بولی وچ سوہنا لٹریچر چھاپیا تے دوجا پنجابی ستھاں نال مل کے منظم طریقے نال پنجابی سوال نوں سیاسی ایجنڈے اتے لیاندا۔اج 20 سالاں توں بعد اسیں سمجھدے ہاں کہ اپنے ٹچیاں اتے ہن اک وڈے کھلار نال اگے ودھ رہے ہاں۔پنجاب دی ہر نکڑ اتے ایہہ سوال پوری طاقت نال چکیا جا رہیا اے۔
+          چیتا رہوے کہ اسیں اپنے ملک وچ بولی جان والی ہر زبان تے رہتل دا برابری دی پدھر اتے احترام کردے ہاں تے ہن تک اسیں پنجابی توں وکھ سندھی سرائیکی پشتو بلوچی اردو تے انگریزی وچ کتاباں چھاپ چکے ہاں۔
+  روشن خیالی تے سائنسی خیالات نوں آزادی دے نال ورتن تے پھیلان دے حق وچ ہاں۔ہر طرح دی شدت پسندی نوں ملک و قوم تے اوہدی ترقی دی راہ وچ رکاوٹ سمجھدے ہاں۔
+  سانجھ پبلی کیشنز اک چھوٹا جیہا اشاعتی ادارہ ہے لیکن اسیں اپنے ویژن دے وڈے ہوون اتے یقین رکھدے ہاں۔ساڈی کوشش تے خواہش اے کہ ساڈا ملک  سیاسی سماجی معاشی پدھر اتے دن دگنی تے رات چوگنی ترقی کرے۔"
+          class="sm:w-[50vw]"
+        />
+
+        <DirectorsCard
+          src="farkhanda-1.jpeg"
+          title="Farkhanda Amjad"
+          body-urdu="ساڈے ادارے سانجھ پبلیکیشنز نوں قائم ہوۓ ایس ورھے 20 سال پورے ہو جاسن ۔جولایٔی  2005 توں جون 2025 دا اے سفر اسی ماں بولی دے ودھا لیٔ شروع کیتا سی ۔جیہدے وچ ہر علاقے اور خطے دی زبان اچ کتاباں چھاپیاں مثلاً انگریزی، اردو، پنجابی، سندھی، سرایٔیکی، بلوچی، پشتو وغیرہ ایہناں وچ تاریخ ،ناول،افسانے، کہانیاں، سفرنامے، شاعری، تنقید، میگزین، ہڈورتی، پنجابی قاعدہ تے ڈرامے شامل نیں۔
+          سانجھ دے پلیٹ فارم تے صرف پبلیکیشن دا ہی کم نہیں ہوندا بلکہ ایتھے وڈے ،چھوٹے،نوجوان، کڑیاں، منڈے مختلف موضوعات تے اپنی گل بات وی سانجھی کردے نیں۔ اسیں اپنے ادارے، پنجاب لوک سنگت دی چھتر چھاویں سانجھ ساہت میلے وی سجاۓ۔ کتاب میلے تے مختلف یونیورسٹیاں اور اداریاں وچ کتاباں دی مکھ وکھالی پروگرام وی کیتے.
+          سانجھ ادارے دیاں چھپیاں کتاباں تے مناسب رعایت دتی جاندی اے۔ اپنے  ادارے دے 20 سال پورے ہون دی خوشی وچ جولائی 2025 دا پورا مہینہ ٪ 70 تک رعایت دتی جاوے گی۔ ہر پڑھیار نوں اس آفر توں فائدہ حاصل کرنا چاہی دا اے۔"
+          class="sm:w-[50vw]"
+        />
+      </div>
+    </section>
+
     <!-- References Section -->
     <section class="prose max-w-[1440px] mx-auto mb-4">
       <h2 class="text-center">References</h2>
@@ -62,34 +90,6 @@
         <ReferencesCard
           author="Talha Minhas (Bielefeld)"
           blurb="Sanjh is an absolute gem - an oasis for book lovers of Pakistan, thirsty for knowledge. I am very grateful for Sanjh that has enlightened and enriched the lives of so many. I wish to see Sanjh growing into an even bigger platform for generations to come."
-        />
-      </div>
-    </section>
-
-    <!-- Directors Note Section -->
-    <section class="prose max-w-[1440px] mx-auto mb-8">
-      <h2 class="max-w-[1440px] text-center">Directors Note</h2>
-
-      <div
-        class="flex max-sm:flex-col max-sm:justify-center justify-evenly items-center gap-x-6 mx-8"
-      >
-        <DirectorsCard
-          src="farkhanda-1.jpeg"
-          title="Farkhanda Amjad"
-          body-urdu="ساڈے ادارے سانجھ پبلیکیشنز نوں قائم ہوۓ ایس ورھے 20 سال پورے ہو جاسن ۔جولایٔی  2005 توں جون 2025 دا اے سفر اسی ماں بولی دے ودھا لیٔ شروع کیتا سی ۔جیہدے وچ ہر علاقے اور خطے دی زبان اچ کتاباں چھاپیاں مثلاً انگریزی،اردو،پنجابی،سندھی،سرایٔیکی،بلوچی،پشتو وغیرہ ایہناں وچ تاریخ ،ناول،افسانے،کہانیاں،سفرنامے،شاعری،تنقید،ممیگزین،ہڈورتی،پنجابی قاعدہ تے ڈرامے شامل نیں ۔سانجھ دے پلیٹ فارم تے صرف پبلیکیشن دا ہی کم نہیں ہوندا بلکہ ایتھے وڈے ،چھوٹے،نوجوان،کڑیاں،منڈے مختلف موضوعات تے اپنی گل بات وی سانجھی کردے نیں ۔اسیں اپنے ادارے،پنجاب لوک سنگت دی چھتر چھاویں  سانجھ ساہت میلے وی سجاۓ ۔کتاب میلے تے مختلف یونیورسٹیاں اور اداریاں وچ کتاباں دی مکھ وکھالی پروگرام وی کیتے، سانجھ ادارے دیاں چھپیاں کتاباں تے مناسب رعایت دتی جاندی اے ۔اپنے  ادارے دے 20 سال پورے ہون دی خوشی وچ جولائی 2025 دا پورا مہینہ  ٪ 70 تک رعایت دتی جاوے گی ۔ہر پڑھیار نوں اس آفر توں فائدہ حاصل کرنا چاہی دا اے۔"
-          class="sm:w-[50vw]"
-        />
-
-        <DirectorsCard
-          src="amjad.jpeg"
-          title="Amjad Saleem Minhas"
-          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Sed mattis turpis at erat bibendum viverra. 
-        Etiam accumsan, dui eget imperdiet maximus, felis felis varius ex, et cursus sem orci sed dui. 
-        Nunc sed leo eget augue egestas pharetra. Aliquam tincidunt sagittis diam. 
-        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-        Aliquam sit amet accumsan orci, a consequat tortor. Ut non ante turpis."
-          class="sm:w-[50vw]"
         />
       </div>
     </section>

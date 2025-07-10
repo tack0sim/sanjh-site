@@ -5,11 +5,13 @@ const props = defineProps<{
   body?: string;
   bodyUrdu?: string;
 }>();
+
+const formattedBody = computed(() => props?.bodyUrdu?.replace(/\n/g, "<br />"));
 </script>
 
 <template>
   <article
-    class="flex flex-col justify-center items-center mb-4 bg-[#888888]/15 rounded-xl m-0"
+    class="flex flex-col justify-start items-center h-[max] mb-4 pb-0 bg-[#888888]/15 rounded-xl m-0"
   >
     <NuxtImg
       :src="props?.src"
@@ -18,6 +20,6 @@ const props = defineProps<{
     />
     <h3 class="mt-0 mb-0">{{ props?.title }}</h3>
     <p v-if="!props?.bodyUrdu" class="px-2">{{ props?.body }}</p>
-    <p dir="rtl" lang="ur" class="px-2">{{ props?.bodyUrdu }}</p>
+    <p dir="rtl" lang="ur" class="px-2" v-html="formattedBody" />
   </article>
 </template>
