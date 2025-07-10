@@ -35,7 +35,7 @@ function closeModal() {
       <p
         dir="rtl"
         lang="ur"
-        class="px-2 mb-0 mt-0 pt-0 pb-2 @max-xs:text-xl md:text-2xl"
+        class="px-2 mb-0 mt-0 pt-0 pb-2 @max-xs:text-xl md:text-lg"
       >
         <Icon v-if="props?.blurbUrdu" name="mdi:format-quote-close" />
         {{ props?.blurbUrdu }}
