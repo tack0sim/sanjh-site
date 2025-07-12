@@ -4,7 +4,7 @@
   <div>
     <!-- <GallerySlider /> -->
     <!-- Hero Section -->
-    <section class="prose max-w-[1440px] mx-auto mb-4">
+    <section class="prose max-w-[1440px] mx-auto mb-12">
       <h2 class="text-center">Our Bestsellers</h2>
       <HeroMain />
     </section>
