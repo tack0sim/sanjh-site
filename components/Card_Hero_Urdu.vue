@@ -8,7 +8,7 @@ const props = defineProps<{
 
 <template>
   <article
-    class="flex flex-col justify-start items-center h-max gap-y-1 pb-2 px-8 bg-[#888888]/50 rounded-xl"
+    class="flex flex-col justify-evenly items-center gap-y-1 pb-2 px-8 bg-[#888888]/50 rounded-xl"
   >
     <NuxtImg
       :src="props?.src"

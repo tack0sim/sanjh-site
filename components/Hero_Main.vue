@@ -30,7 +30,6 @@
       src="military-intervention.jpeg"
       title="پاکستان: جمہوریت اور فوجی مداخلتیں"
     />
-    <LazyCardHeroUrdu hydrate-on-visible src="shiv-kumar.jpg" title="کلام شو" />
     <LazyCardHeroUrdu
       hydrate-on-visible
       src="chan-di-matti.jpg"
@@ -41,6 +40,7 @@
       src="afghanistan.jpeg"
       title="افغانستان"
     />
+    <LazyCardHeroUrdu hydrate-on-visible src="shiv-kumar.jpg" title="کلام شو" />
     <LazyCardHeroEng
       hydrate-on-visible
       src="colonial-lahore.jpg"
