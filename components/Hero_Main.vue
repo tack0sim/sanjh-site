@@ -6,6 +6,22 @@
   >
     <LazyCardHeroUrdu
       hydrate-on-visible
+      src="kainat.jpeg"
+      title="کئنات: ایک حیرت کدہ"
+    />
+    <LazyCardHeroUrdu hydrate-on-visible src="salik.jpeg" title="سالک" />
+    <LazyCardHeroUrdu
+      hydrate-on-visible
+      src="motiye.jpeg"
+      title="موتیے کے نابینا پھول"
+    />
+    <LazyCardHeroUrdu
+      hydrate-on-visible
+      src="postcolonial-series.jpeg"
+      title="نو آبادیاتی نظام کا تعارف (سلسلہ)"
+    />
+    <LazyCardHeroUrdu
+      hydrate-on-visible
       src="an-mnea-bahar.jpg"
       title="ان منیا بھار"
     />
@@ -27,7 +43,7 @@
     />
     <LazyCardHeroEng
       hydrate-on-visible
-      src="colonial lahore.jpg"
+      src="colonial-lahore.jpg"
       title="Colonial Lahore"
     />
     <LazyCardHeroEng

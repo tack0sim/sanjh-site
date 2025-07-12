@@ -20,6 +20,6 @@ const formattedBody = computed(() => props?.bodyUrdu?.replace(/\n/g, "<br />"));
     />
     <h3 class="mt-0 mb-0">{{ props?.title }}</h3>
     <p v-if="!props?.bodyUrdu" class="px-2">{{ props?.body }}</p>
-    <p dir="rtl" lang="ur" class="px-2 md:text-xl" v-html="formattedBody" />
+    <p dir="rtl" lang="ur" class="px-2 md:text-lg" v-html="formattedBody" />
   </article>
 </template>
